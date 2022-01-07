@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
+.wr {
+    max-width: 1080px;
+    margin: 0 auto;
+    height: 100%;
+    @media screen and (max-width: $desctop-m) {
+      padding: 0 20px;
+    }
+}
