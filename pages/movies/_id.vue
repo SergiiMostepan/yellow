@@ -1,7 +1,7 @@
 <template>
   <div class="movie">
     <div class="wr movie__wr" v-if="movie">
-      <h1 class="movie__title">{{movie.name}}</h1>
+      <h1 class="movie__title" v-html="movie.name"></h1>
       <div class="movie__top">
         <div class="movie__top__left">
           <img :src="movie.image" :alt="movie.name" />
